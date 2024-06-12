@@ -1,0 +1,45 @@
+*{
+    margin:0px;
+}
+body{
+    background-color: #577399;
+}
+
+.mainbox{
+    display :flex;
+    height:100vh;
+    width:100vw;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.rad{
+    border-style: double;
+    padding: 5vh;
+    border-radius: 5vh;
+    background-color: #BDD5EA;
+
+}
+
+#iduser,#idpass,#idrepass{
+    text-align: left;
+}
+
+.text_in{
+    width: 50vw;
+    height: 4vh;
+    border-radius: 10px;
+    font-size: 3vh;
+}
+
+.user,.pass,.repass,.butt{
+    margin-top: 20px;
+}
+
+#creat{
+    height: 4vh;
+    width: 16vh;
+    font-size: 2.5vh;
+    background-color: #8AA4C2;
+}
